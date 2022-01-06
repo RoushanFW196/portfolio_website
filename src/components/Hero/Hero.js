@@ -7,15 +7,18 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
   <>
     <Section row nopadding>
+
       <LeftSection>
         <SectionTitle main center>
+        <img src="./images/profile.jpg" style={{width:"200px"},{borderRadius:"50%"}}/><br/>
+          Hi There, I'm Roushan<br/>
           Welcome To <br />
-          My Personal Portfolio
+          My Personal Portfolio.
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          I'm Full Stack Web Developer.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={props.handleClick}>View More</Button>
       </LeftSection>
     </Section>
   </>
