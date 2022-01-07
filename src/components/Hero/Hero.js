@@ -10,7 +10,7 @@ const Hero = (props) => (
 
       <LeftSection>
         <SectionTitle main center>
-        <img src="./images/profile.jpg" style={{width:"200px"},{borderRadius:"50%"}}/><br/>
+        <img src="./images/profile.png" style={{width:"100px"},{borderRadius:"50%"}}/><br/>
           Hi There, I'm Roushan<br/>
           Welcome To <br />
           My Personal Portfolio.
