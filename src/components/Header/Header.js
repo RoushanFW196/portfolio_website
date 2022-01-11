@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
+import { AiOutlineCloudDownload, AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
@@ -31,7 +31,7 @@ const Header = () =>  (
         </Link>
       </li>        
       <li>
-        <Link href="#contact me">
+        <Link href="#contact">
           <NavLink>Contact me</NavLink>
         </Link>
       </li>  
@@ -47,6 +47,10 @@ const Header = () =>  (
         <SocialIcons href="https://twitter.com/ROUSHAN58200556">
           <AiFillTwitterSquare size="3rem"/>
         </SocialIcons>
+        <SocialIcons href="https://drive.google.com/file/d/1Soc9Tc8Vzm7wdoszPhbggAiMIz8tdJZ_/view?usp=sharing">
+          <AiOutlineCloudDownload size="3rem"/>
+        </SocialIcons>
+        
       </Div3>
     </Container>
 );
