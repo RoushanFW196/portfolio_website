@@ -12,13 +12,13 @@ const Hero = (props) => (
         <SectionTitle main center>
         <img src="./images/profile.png" style={{width:"100px"},{borderRadius:"50%"}}/><br/>
           Hi There, I'm Roushan<br/>
-          Welcome To <br />
-          My Personal Portfolio.
+          {/* Welcome To <br />
+          My Personal Portfolio. */}
         </SectionTitle>
         <SectionText>
           I'm Full Stack Web Developer.
         </SectionText>
-        <Button onClick={props.handleClick}>View More</Button>
+        {/* <Button onClick={props.handleClick}>View More</Button> */}
       </LeftSection>
     </Section>
   </>
