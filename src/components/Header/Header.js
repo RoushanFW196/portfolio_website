@@ -38,16 +38,16 @@ const Header = () =>  (
 
     </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/RoushanFW196">
+        <SocialIcons href="https://github.com/RoushanFW196" target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/roushankumar63/">
+        <SocialIcons href="https://www.linkedin.com/in/roushankumar63/" target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://twitter.com/ROUSHAN58200556">
+        <SocialIcons href="https://twitter.com/ROUSHAN58200556" target="_blank">
           <AiFillTwitterSquare size="3rem"/>
         </SocialIcons>
-        <SocialIcons href="https://drive.google.com/file/d/1Soc9Tc8Vzm7wdoszPhbggAiMIz8tdJZ_/view?usp=sharing">
+        <SocialIcons href="https://drive.google.com/file/d/1Soc9Tc8Vzm7wdoszPhbggAiMIz8tdJZ_/view?usp=sharing" target="_blank">
           <AiOutlineCloudDownload size="3rem"/>
         </SocialIcons>
         
