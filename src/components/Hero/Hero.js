@@ -21,7 +21,7 @@ user-friendly and feature-rich websites. Able to deliver
 efficient web solutions and looking forward to
 showcasing these skills in a reputed company.
         </SectionText>
-        {/* { <Button onClick={props.handleClick}>View More</Button> } */}
+       <Button onClick={props.handleClick}>Resume</Button> 
       </LeftSection>
     </Section>
   </>
