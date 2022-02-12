@@ -23,7 +23,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Reference:Tutorial created by Enyel Sequeira, taught by JavaScript Mastery</Slogan>
+          <Slogan>Developed by Roushan & Reference:Tutorial created by Enyel Sequeira, taught by JavaScript Mastery</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/RoushanFW196#">
