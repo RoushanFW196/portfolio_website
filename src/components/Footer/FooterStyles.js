@@ -1,3 +1,5 @@
+
+
 import styled from "styled-components"
 
 export const FooterWrapper = styled.section`
@@ -15,19 +17,17 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
+	font-size: 19px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: black;
+	display:flex;
+	justify-content: center;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
-	left: 0;
+	left: 0.3rem;
 
-	&:hover {
-		color: #fff;
-		left: 16px;
-		
-	}
+	
 
 	@media ${props => props.theme.breakpoints.md} {
 		font-size: 16px;
@@ -36,7 +36,7 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 15px;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -88,7 +88,11 @@ export const Slogan = styled.p`
 	letter-spacing: 0.02em;
 	font-size: 18px;
 	line-height: 30px;
+	display:flex;
+	justify-content: center;
 	padding: 1rem;
+	margin-bottom:-50px;
+	// margin-top:2rem;
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
@@ -126,35 +130,96 @@ export const LinkList = styled.ul`
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
-		width: 100%;
-		padding: 32px 0 16px;
-		gap: 16px;
+		display: grid;
+		grid-template-columns: auto auto;
+		margin-left: 4rem;
 	}
-	@media ${props => props.theme.breakpoints.sm} {
-		width: 100%;
-		padding: 32px 4px 16px;
-		gap: 5px;
+	@media all and (max-width:450px){
+		
+	   display: grid;
+	   grid-template-columns: 68% ;
+	//    margin-left: 4rem;
+	   justify-content: center;
+	   
+	  
+	  
 	}
 `
 
 export const LinkColumn = styled.div`
+  margin-top:7rem;
 	display: flex;
 	flex-direction: column;
-	max-width: 220px;
+	// max-width: 220px;
 	width: 100%;
+	// border:2px solid white;
+	color:black;
+    background-color: #fff;
+    -webkit-transform: rotate(
+-30deg) skew(
+25deg) translate(0);
+    transform: rotate(
+18deg) skew(
+25deg) translate(0);
+transition: .5s;
+box-shadow: -20px 20px 10px hsl(0deg 0% 100% / 50%);
+
+
+:hover{
+    box-shadow: 1px 12px 20px mediumaquamarine;
+    background-color: black;
+	// border:2px solid black;
+    // visibility: visible;
+
+	& p{
+		color: white;
+	}
+
+	& h4{
+		color: white;
+	}
+}
+
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
-	margin-bottom: 16px;
+	color: black;
+	// margin-bottom: 16px;
+	margin-top: 1rem;
+	margin-left:1rem;
+
+	
 
 	@media ${props => props.theme.breakpoints.sm} {
 		font-size: 10px;
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
+` 
+
+
+
+export const LinkImg=styled.img`
+margin-top: 0.7rem;
+height: 2rem;
+width:30px;
 `
+export const Loction=styled.p`
+display:flex;
+	justify-content: center;
+	color: rgba(255,255,255,0.5);
+	margin-top:4rem;
+`
+
+
+export const Flexdiv=styled.div`
+	display:flex;
+	justify-content: center;
+gap:3rem;
+`
+
+

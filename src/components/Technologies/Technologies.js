@@ -1,5 +1,7 @@
 import React from 'react';
 import { DiCss3, DiFirebase, DiGit, DiHtml5, DiJavascript, DiMongodb, DiNodejs, DiNpm, DiReact, DiZend } from 'react-icons/di';
+import {SiNetlify, SiPostman, SiRedux,SiExpress} from "react-icons/si";
+import {DiHeroku,DiGithubBadge} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -13,9 +15,7 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        {/* <picture>
-          <DiReact size="3rem" />
-        </picture> */}
+      
         <ListContainer>
           <ListTitle>Front-End </ListTitle>
 
@@ -25,6 +25,7 @@ const Technologies = () =>  (
         <picture>
         
         <DiReact size="3rem" />  React.js<br/>
+       <SiRedux size="3.6rem" /> Redux<br />
           <DiHtml5 size="3rem" /> HTML <br/>
           <DiCss3 size="3rem" /> CSS<br/>
           <DiJavascript size="3rem" /> JavaScript<br/>
@@ -45,11 +46,11 @@ const Technologies = () =>  (
             {/* Node and Databases <br/> */}
 
             <picture>
-            <DiFirebase size="3rem" /> Databases<br/>
-        <DiMongodb size="3rem" />MongoDb<br/>
+            <DiFirebase size="3.6rem" /> Databases<br/>
+        <DiMongodb size="3.6rem" /> MongoDb<br/>
           {/* <Di Mongoose size="3rem" /> Mongoose<br/> <br/> */}
-          {/* <Di size="3rem" />Expressjs<br/> */}
-          <DiNodejs size="3rem" />Nodejs<br/>
+        
+          <DiNodejs size="3.6rem" />Nodejs<br/>
         </picture>
 
 
@@ -58,9 +59,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
+       
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
@@ -68,8 +67,8 @@ const Technologies = () =>  (
        
 
             <picture>
-            <DiNpm size="3rem" />Npm<br/>
-        {/* <Dij size="3rem" />MongoDb<br/> */}
+            <DiNpm size="3.6rem" /> Npm<br/>
+         <SiPostman size="3.6rem" /> Postman<br/> 
           {/* <Di Mongoose size="3rem" /> Mongoose<br/> <br/> */}
           {/* <Di size="3rem" />Expressjs<br/> */}
           {/* <DiNodejs size="3rem" />Nodejs<br/> */}
@@ -79,6 +78,50 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
+
+
+    <List>
+      <ListItem>
+        
+        <ListContainer>
+          <ListTitle>Hosting Platform</ListTitle>
+          <ListParagraph>
+          <picture> <DiHeroku size="3.6rem" /></picture> Heroku <br />
+            <picture> <DiGithubBadge size="3.6rem" /></picture> Github <br />
+            <picture> <SiNetlify size="3.6rem" /></picture> Netlify <br />
+         
+             
+
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+
+        <ListContainer>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph> 
+          <picture> <DiMongodb size="3.6rem" /></picture>MongoDB <br />
+             
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        {/* <picture>
+          <DiZend size="3.6rem" />
+        </picture> */}
+        <ListContainer>
+          <ListTitle>Version Control</ListTitle>
+          <ListParagraph>
+          <picture> <DiGit size="3.6rem" /></picture>Git <br />
+             <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+
+
+
+
     <SectionDivider colorAlt />
   </Section>
 );

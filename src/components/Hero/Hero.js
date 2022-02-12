@@ -16,12 +16,16 @@ const Hero = (props) => (
           My Personal Portfolio. */}
         </SectionTitle>
         <SectionText>
-          I'm Full Stack Web Developer.development. Able to develop and optimize interactive,
-user-friendly and feature-rich websites. Able to deliver
-efficient web solutions and looking forward to
+          I'm Full Stack Web Developer. Able to develop and optimize interactive,
+user-friendly and feature-rich websites and looking forward to
 showcasing these skills in a reputed company.
         </SectionText>
-       <Button onClick={props.handleClick}>Resume</Button> 
+  
+       <Button onClick={()=>{
+          window.open("https://drive.google.com/file/d/1Soc9Tc8Vzm7wdoszPhbggAiMIz8tdJZ_/view?usp=sharing")
+          
+        }}>Resume</Button>
+
       </LeftSection>
     </Section>
   </>

@@ -47,9 +47,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       I'm  full stack web
-development.Able to develop and optimize
-interactive ,user-friendly and feature-rich
-websites.Able to deliver efficient web solutions.
+developer. A problem solver, an observer and have been enthusiastic for learning new technologies.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

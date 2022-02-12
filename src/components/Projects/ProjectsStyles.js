@@ -27,9 +27,21 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  :hover{
+    box-shadow: 1px 12px 20px white;
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
+  @media all and (max-width:764px){
+    
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    }
+
+
 `;
 export const TitleContent = styled.div`
   text-align: center;
