@@ -130,4 +130,5 @@ export const ListIcon = styled.img`
     height: 32px;
     margin-bottom: 0px;
   }
+  
 `

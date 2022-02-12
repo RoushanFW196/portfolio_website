@@ -23,6 +23,7 @@ const Technologies = () =>  (
           Experince with<br/>
         
         <picture>
+        
         <DiReact size="3rem" />  React.js<br/>
           <DiHtml5 size="3rem" /> HTML <br/>
           <DiCss3 size="3rem" /> CSS<br/>
