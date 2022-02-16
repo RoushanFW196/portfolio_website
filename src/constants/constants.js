@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Intern THeory Clone",
+    title: "Intern Theory Clone",
     description:
       " This website is cloned with the help of HTMl, CSS, JavaScript and LocalStorage.Intern Theory  is a website which provides internships ,job, skill oriented course user can check for any jobs or internship opportunities or pursue any course by purchasing from here,'Add to cart' and 'checkout' features can be used to do this.",
     image: "/images/1.png",
     tags: ["HTMl", "CSS", "JavaScript", "LocalStorage"],
-    source: "https://github.com/AbhijitAher/InternTheory_Clone.git",
+    source: "https://github.com/AbhijitAher/InternTheoryClone",
     Blog:"https://medium.com/@roushankumar6338/roushans-blog-46c9917435a5",
     visit: "https://interntheoryclone.netlify.app/",
 
@@ -13,7 +13,7 @@ export const projects = [
   },
 
   {
-    title: "Inter Theory Clone",
+    title: "Intern Theory Clone-Ejs",
     description:
       "For Cloning this website we have used  Mongoose,MongoDb,ExpressJs,Ejs and Node.js .Intern Theory  is a website which provides internships ,job, skill oriented course user can check for any jobs or internship opportunities or pursue any course by purchasing from here,'Add to cart' and 'checkout' features can be used to do this.",
     image: "/images/2.png",
