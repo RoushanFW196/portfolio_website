@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      My name is Roushan kumar. I did my Graduation from BCE Bhagalpur, Bihar, India with a degree in Electrical engineering. Due to keen interest in coding, I joined Masai School to pursue Full-Stack web development.
+      My name is Roushan kumar. I did my Graduation from BCE Bhagalpur, Bihar, India with a degree in Electrical engineering. Due to keen interest in coding, I joined Masai School to pursue Full-Stack web development.<br/>
 I am a Problem solver, most passionate about giving back to the community, and my goal is to pursue this passion within the field of web development. I am enthusiastic to learn new technology.
 in my free time, I  listen to music, listen to podcasts, reading books.
       </SectionText>
