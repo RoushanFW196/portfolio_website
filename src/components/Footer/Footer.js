@@ -48,10 +48,10 @@ const Footer = () => {
         <SocialContainer>
          
 
-          <SocialIcons href="https://www.linkedin.com/in/roushankumar63/">
+          <SocialIcons href="https://www.linkedin.com/in/roushankumar63/" target="_blank">
              <AiFillLinkedin size="3rem" />
            </SocialIcons>
-           <SocialIcons href="https://twitter.com/ROUSHAN58200556">
+           <SocialIcons href="https://twitter.com/ROUSHAN58200556" target="_blank">
              <AiFillTwitterSquare size="3rem" />
            </SocialIcons>
 
