@@ -3,9 +3,22 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:100%;
   height:100%;
+  border-radius:2%;
   object-fit: cover;
   overflow: hidden;
+  margin-top: 1rem;
+ 
 `
+
+
+
+
+
+
+
+
+
+
 
 export const GridContainer = styled.section`
 display: grid;
@@ -122,3 +135,6 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+
+
+
