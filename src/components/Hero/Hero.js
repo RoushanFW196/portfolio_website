@@ -22,7 +22,7 @@ showcasing these skills in a reputed company.
         </SectionText>
   
        <Button onClick={()=>{
-          window.open("https://drive.google.com/file/d/1Soc9Tc8Vzm7wdoszPhbggAiMIz8tdJZ_/view?usp=sharing")
+          window.open("https://drive.google.com/file/d/1DBSENM9QKXdo-npVmwKajKZgDjCBA8xi/view?usp=sharing")
           
         }}>Resume</Button>
 

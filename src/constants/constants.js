@@ -27,7 +27,7 @@ export const projects = [
   {
     title: 'Discovery Plus Clone',
     description: "This website is cloned with the help of React, React-Redux, Firebase, Es6, CSS. Discovery plus is an OTT platform which provides mindblowing content in 40+ Genres at affordable prices. user can purchase monthly or annual subscription for watching the content online.  ",
-      image: '/images/3.jpg',
+      image: '/images/3.png',
       tags: ['React', 'Redux',"Firebase","Css","Es6"],
     source: 'https://github.com/RoushanFW196/discovery_clone',
     Blog:"https://medium.com/@roushankumar6338/making-the-clone-of-discovery-plus-150778e2ec00",
