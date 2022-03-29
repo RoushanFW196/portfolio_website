@@ -24,15 +24,16 @@ export const projects = [
     id: 1,
   },
 
-  // {
-  //   title: 'WebRTC App',
-  //   description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //     image: '/images/3.jpg',
-  //     tags: ['React', 'WebRTC'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 2,
-  // },
+  {
+    title: 'Discovery Plus Clone',
+    description: "This website is cloned with the help of React, React-Redux, Firebase, Es6, CSS. Discovery plus is an OTT platform which provides mindblowing content in 40+ Genres at affordable prices. user can purchase monthly or annual subscription for watching the content online.  ",
+      image: '/images/3.jpg',
+      tags: ['React', 'Redux',"Firebase","Css","Es6"],
+    source: 'https://github.com/RoushanFW196/discovery_clone',
+    Blog:"https://medium.com/@roushankumar6338/making-the-clone-of-discovery-plus-150778e2ec00",
+    visit: 'https://google.com',
+    id: 2,
+  },
 
   // {
   //   title: 'Unichat',
