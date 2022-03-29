@@ -31,7 +31,7 @@ export const projects = [
       tags: ['React', 'Redux',"Firebase","Css","Es6"],
     source: 'https://github.com/RoushanFW196/discovery_clone',
     Blog:"https://medium.com/@roushankumar6338/making-the-clone-of-discovery-plus-150778e2ec00",
-    visit: 'https://google.com',
+    visit: 'https://github.com/RoushanFW196/discovery_clone',
     id: 2,
   },
 
