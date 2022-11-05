@@ -52,4 +52,5 @@ export const TimeLineData = [
   // { year: 2019, text: 'Founded JavaScript Mastery', },
   { year: 2020, text: "Completed Graduation" },
   { year: 2021, text: "Joined Masai School" },
+  {year:2021,text:"Joined SmartFoodsafe"}
 ];
